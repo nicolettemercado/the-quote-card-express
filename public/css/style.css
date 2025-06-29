@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #3e1f71, #d8458f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.quote-container {
+  position: relative;
+  max-width: 700px;
+  padding: 40px 30px;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3));
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.quote-text {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 0 20px;
+  line-height: 1.6;
+}
+
+.author {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.quote-mark {
+  font-size: 3rem;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
+
+.quote-mark.top {
+  top: 10px;
+  left: 20px;
+}
+
+.quote-mark.bottom {
+  bottom: 10px;
+  right: 20px;
+}
