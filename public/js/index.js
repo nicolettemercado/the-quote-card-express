@@ -5,7 +5,7 @@ const elements = {
     author: document.getElementById("author"),
 };
 async function getRandomImage() {
-    const client_id = "YOUR_ACCESS_KEY";
+    const client_id = "IdVOYt2xSPZl6cydhC9a0atxF1VKG_e9Qe7pNycM3_M";
     const endpoint = `https://api.unsplash.com/photos/random/?client_id=${client_id}`;
     try {
         const response = await fetch(endpoint);
@@ -14,9 +14,9 @@ async function getRandomImage() {
     } catch (error) {
         console.error(error)
     }
-}
+} 
 getRandomImage();{
-    const client_id = "YOUR_ACCESS_KEY";
+    const client_id = "IdVOYt2xSPZl6cydhC9a0atxF1VKG_e9Qe7pNycM3_M";
     const endpoint = `https://api.unsplash.com/photos/random/?client_id=${client_id}`;
     try {
         const response = await fetch(endpoint);
